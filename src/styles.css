@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap");
+
+.App {
+  font-family: "Mulish", sans-serif;
+  width: 100wh;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(bg-1.png); */
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: chocolate; */
+  width: 444px;
+  height: 490px;
+  padding: 10px;
+}
+.container {
+  /* background-color: chartreuse; */
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+.my-label {
+  margin-bottom: 10px;
+}
+.input-div input {
+  width: 352px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+.btnc {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  margin-top: 20px;
+  width: 360px;
+  height: 40px;
+  background-color: rgba(70, 62, 234, 1);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.ptext {
+  text-align: center;
+}
+.ptext a {
+  text-decoration: none;
+}
+#p1 {
+  color: rgba(70, 62, 234, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+#p2 {
+  margin-top: 80px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* // 282 width  */
+@media screen and (max-width: 414px) {
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+    width: 282px;
+    height: 581px;
+    padding: 10px;
+  }
+  .App {
+    font-family: "Mulish", sans-serif;
+    width: 100wh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-div input {
+    width: 282px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+  }
+  .btnc {
+    display: flex;
+    justify-content: center;
+  }
+  #btn {
+    margin-top: 20px;
+    width: 285px;
+    height: 35px;
+    background-color: rgba(70, 62, 234, 1);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .success {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+  }
+  .error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+}
